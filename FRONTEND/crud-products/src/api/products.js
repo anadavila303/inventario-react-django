@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const productsApi = axios.create({
-    baseURL: 'http://127.0.0.1:8000/api/producto/'
+    baseURL: 'https://anadavila.pythonanywhere.com/api/producto/'
 })
 
 export const getProducts = () => productsApi.get()
